@@ -1,0 +1,62 @@
+{
+  "bonus_chest": false,
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "settings": {
+          "lakes": false,
+          "features": false,
+          "biome": "minecraft:plains",
+          "structures": {
+            "stronghold": {
+              "distance": 32,
+              "spread": 3,
+              "count": 128
+            },
+            "structures": {
+              "minecraft:village": {
+                "spacing": 34,
+                "separation": 8,
+                "salt": 10387312
+              }
+            }
+          },
+          "layers": [
+            {
+              "height": 1,
+              "block": "minecraft:barrier"
+            }
+          ]
+        },
+        "type": "minecraft:flat"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "biome_source": {
+          "preset": "minecraft:nether",
+          "type": "minecraft:multi_noise"
+        },
+        "seed": 3083311010826419309,
+        "settings": "minecraft:nether",
+        "type": "minecraft:noise"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "biome_source": {
+          "seed": 3083311010826419309,
+          "type": "minecraft:the_end"
+        },
+        "seed": 3083311010826419309,
+        "settings": "minecraft:end",
+        "type": "minecraft:noise"
+      }
+    }
+  },
+  "seed": 3083311010826419309,
+  "generate_features": true
+}

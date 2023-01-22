@@ -1,0 +1,9 @@
+name: SortVisualizerPlugin
+version: '${project.version}'
+main: com.heledron.minecraft.sortvisualizerplugin.SortVisualizerPlugin
+api-version: 1.18
+commands:
+  sortvis:
+    usage:
+      /sortvis <name:String>
+      /sortvis RESIZE <size:Int>
