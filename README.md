@@ -6,9 +6,14 @@
 ## Usage
 The presentation is rendered at (0, 50, 0) in the Overworld, facing the positive X direction.
 
-Get items used to control the visualization
+Get items used to control the visualizer.
 ```
 /sortVis GIVE_ITEMS
+```
+
+Run a specific algorithm.
+```
+/sortVis {ALGORITHM_NAME}
 ```
 
 Change the size of the array, where {INT} is the number of elements.
@@ -16,7 +21,7 @@ Change the size of the array, where {INT} is the number of elements.
 /sortVis RESIZE {INT}
 ```
 
-Change presentation speed, where {INT} is in game ticks.
+Change the presentation speed, where {INT} is the number of game ticks between each step.
 ```
 /sortVis EVENT_DURATION {INT}
 ```
