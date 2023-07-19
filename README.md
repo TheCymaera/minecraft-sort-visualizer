@@ -25,7 +25,7 @@ Change presentation speed, where {INT} is in game ticks.
 To add an algorithm:
 - Find an existing algorithm in the `algorithms` folder for reference.
 - Create a new file, and declare a function using the reference.
-- Register the algorithm in the `algorithms` array inside `SortVisualizerPlugin.java`.
+- Register the algorithm in the `algorithms` array inside `SortVisualizerPlugin.kt`.
 ```kotlin
 val algorithms = arrayOf<AlgorithmDetails>(
 	...
